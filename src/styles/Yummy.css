@@ -1,0 +1,47 @@
+.carousel {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    background: linear-gradient(135deg, #f8b400, #ff6347);
+}
+
+.carousel-inner {
+    width: 50%; 
+    height: 100%;
+    display: flex;
+    justify-content: flex-start; 
+    position: relative;
+}
+
+.carousel-inner img {
+    width: 120%; 
+    height: 100%;
+    object-fit: cover; 
+    position: absolute;
+    left: -25%; 
+    border-radius: 0 80% 80% 0; 
+}
+
+.carousel-text {
+    width: 50%; 
+    height: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+    z-index: 1;
+}
+
+.carousel-text p{
+    margin: 0; 
+    padding: 0 20px; 
+    font-family: 'Times New Roman', Times, serif;
+}
