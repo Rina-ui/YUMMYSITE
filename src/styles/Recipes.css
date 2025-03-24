@@ -59,11 +59,12 @@
 
 .recipes-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Colonnes dynamiques */
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Colonnes dynamiques */
     gap: 20px;
-    width: 100%;
-    max-width: 1200px;
+    width: 100%; 
+    max-width: 100%; 
     padding: 20px;
+    margin: 0 auto;
 }
 
 
